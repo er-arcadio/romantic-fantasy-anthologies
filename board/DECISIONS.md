@@ -13,3 +13,4 @@ One row per decision. The lead appends here whenever the author approves, reject
 | 2026-10-17 | — | **Repo set up on the Vector model.** Narrator to be researched; tone provisional; genre comparison, heat level, and canon audit ticketed. | T-001 to T-005. |
 | 2026-10-17 | — | **Magic guidelines imported as guidelines, not rules.** Forms to be filled with reasoning and confirmed. | T-006, T-007. |
 | 2026-10-18 | T-012 | **Reading site and board tab turned on.** Pages source set to GitHub Actions; `BOARD_PASSPHRASE` added as a repository secret. | First deploy succeeded. |
+| 2026-10-18 | — | **Site theme:** light mode only; tan #FFDCB3 backdrop, forest green #4A8F6B, skin-tone brown (adjusted to #8A5A3C), purple #AA87FF accent. | Text uses deeper shades for readability. |

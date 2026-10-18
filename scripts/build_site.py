@@ -232,37 +232,29 @@ def collect_stories(stories_root: Path, policy: str = None, order_mode: str = No
 
 BASE_CSS = """
 :root {
-  --bg: #F5F6F7;
-  --surface: #FFFFFF;
-  --text: #110705;
-  --text-secondary: #5B6062;
-  --border: #E2E4E5;
-  --accent: #895327;
-  --accent-strong: #421F02;
-  --accent-contrast: #F5F6F7;
-  --timeline-line: #D9C9BC;
-  --badge-canon: #895327;
-  --badge-draft: #71797B;
-  --badge-noncanon: #9A9FA1;
-  --shadow: 0 1px 2px rgba(17, 7, 5, 0.06), 0 1px 1px rgba(17, 7, 5, 0.04);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #150C0A;
-    --surface: #1E1310;
-    --text: #F5F6F7;
-    --text-secondary: #A9AEB0;
-    --border: #34241D;
-    --accent: #C98A4B;
-    --accent-strong: #E0A469;
-    --accent-contrast: #150C0A;
-    --timeline-line: #4A362B;
-    --badge-canon: #C98A4B;
-    --badge-draft: #8E9599;
-    --badge-noncanon: #6B7072;
-    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 1px 1px rgba(0, 0, 0, 0.3);
-  }
+  /* Palette (light mode only). Author's colours: tan #FFDCB3, forest green
+     #4A8F6B, skin-tone brown (adjusted from #806145), optional purple #AA87FF.
+     Text uses deeper shades of each so it stays readable (WCAG AA). */
+  color-scheme: light;
+  --bg: #FFDCB3;               /* main: tan backdrop */
+  --surface: #FFF4E6;          /* cream cards */
+  --text: #2E1D12;
+  --text-secondary: #6B4A33;
+  --border: #EBC497;
+  --accent: #2F6B4D;           /* links and text on tan: deepened forest green */
+  --accent-fill: #4A8F6B;      /* author's green, for fills and lines */
+  --accent-strong: #2F6B4D;    /* top bar */
+  --accent-contrast: #FFF4E6;
+  --skin: #8A5A3C;             /* adjusted brown: medium, warm, mixed */
+  --skin-deep: #7A4A2E;
+  --magic: #AA87FF;            /* optional purple, decorative */
+  --magic-text: #6A4BC4;       /* purple deep enough for text */
+  --timeline-line: #4A8F6B;
+  --badge-canon: #2F6B4D;
+  --badge-draft: #8A5A3C;
+  --badge-noncanon: #6A4BC4;
+  --shadow: 0 1px 2px rgba(46, 29, 18, 0.08), 0 2px 6px rgba(46, 29, 18, 0.06);
+  --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
 }
 
 * { box-sizing: border-box; }
@@ -289,7 +281,8 @@ a:hover { text-decoration: underline; }
   z-index: 10;
   background: var(--accent-strong);
   color: var(--accent-contrast);
-  padding: 14px 20px;
+  border-bottom: 3px solid var(--magic);
+  padding: 12px 20px;
   display: flex;
   align-items: baseline;
   gap: 10px;
@@ -298,9 +291,10 @@ a:hover { text-decoration: underline; }
 
 .topbar a.brand {
   color: var(--accent-contrast);
-  font-weight: 800;
-  font-size: 1.05rem;
-  letter-spacing: 0.02em;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.35rem;
+  letter-spacing: 0.01em;
   text-decoration: none;
 }
 
@@ -344,7 +338,7 @@ a:hover { text-decoration: underline; }
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: var(--accent);
+  background: var(--magic);
   border: 2px solid var(--bg);
   box-shadow: 0 0 0 2px var(--timeline-line);
 }
@@ -359,7 +353,7 @@ a:hover { text-decoration: underline; }
 }
 
 .card:hover {
-  border-color: var(--accent);
+  border-color: var(--accent-fill);
 }
 
 .meta-row {
@@ -403,7 +397,8 @@ a:hover { text-decoration: underline; }
 
 .card h2 {
   margin: 4px 0 6px;
-  font-size: 1.2rem;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
   line-height: 1.3;
 }
 
@@ -425,8 +420,8 @@ a:hover { text-decoration: underline; }
 
 .tag {
   font-size: 0.72rem;
-  color: var(--accent);
-  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  color: var(--magic-text);
+  background: color-mix(in srgb, var(--magic) 18%, transparent);
   padding: 2px 8px;
   border-radius: 999px;
 }
@@ -444,6 +439,8 @@ a:hover { text-decoration: underline; }
 
 .empty-state h2 {
   color: var(--text);
+  font-family: var(--font-display);
+  font-size: 2rem;
   margin-bottom: 8px;
 }
 
@@ -460,7 +457,8 @@ a:hover { text-decoration: underline; }
 }
 
 .story-header h1 {
-  font-size: 1.9rem;
+  font-family: var(--font-display);
+  font-size: 2.4rem;
   line-height: 1.25;
   margin: 6px 0 10px;
 }
@@ -477,7 +475,7 @@ a:hover { text-decoration: underline; }
   margin-top: 1.6em;
 }
 .story-body blockquote {
-  border-left: 3px solid var(--accent);
+  border-left: 3px solid var(--skin);
   margin: 1.2em 0;
   padding-left: 14px;
   color: var(--text-secondary);
@@ -510,6 +508,10 @@ def page_shell(title: str, body: str, extra_head: str = "") -> str:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(SITE_TAGLINE)}">
+<meta name="color-scheme" content="light">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
 <style>{BASE_CSS}</style>
 {extra_head}
 </head>

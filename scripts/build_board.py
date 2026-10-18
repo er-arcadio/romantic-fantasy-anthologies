@@ -230,8 +230,7 @@ BOARD_CSS = """
 .lock-card button { margin-top: 12px; width: 100%; padding: 10px; border: 0; border-radius: 8px;
   background: var(--accent); color: var(--accent-contrast); font-size: 0.95rem; font-weight: 600; cursor: pointer; }
 .lock-card button:disabled { opacity: 0.6; cursor: default; }
-.lock-err { color: #b4531a; font-size: 0.86rem; margin-top: 12px; }
-@media (prefers-color-scheme: dark) { .lock-err { color: #f0a066; } }
+.lock-err { color: var(--skin-deep); font-size: 0.86rem; margin-top: 12px; font-weight: 600; }
 
 .board-bar { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
 .board-tabs { display: flex; gap: 4px; }
@@ -244,29 +243,28 @@ BOARD_CSS = """
   border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; font-size: 0.85rem;
   font-family: inherit; cursor: pointer; }
 
-.needs-you { background: color-mix(in srgb, var(--accent) 14%, transparent);
-  border: 1px solid var(--accent); border-radius: 10px; padding: 10px 14px; margin-bottom: 14px;
+.needs-you { background: color-mix(in srgb, var(--magic) 14%, var(--surface));
+  border: 1px solid var(--magic); border-radius: 10px; padding: 10px 14px; margin-bottom: 14px;
   font-size: 0.9rem; cursor: pointer; }
 .needs-you strong { color: var(--accent-strong); }
-@media (prefers-color-scheme: dark) { .needs-you strong { color: var(--accent-strong); } }
 
 .kanban { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(190px, 1fr);
   gap: 10px; overflow-x: auto; padding-bottom: 10px; align-items: start; }
-.kcol { background: color-mix(in srgb, var(--text) 5%, transparent); border-radius: 12px; padding: 10px; min-height: 90px; }
+.kcol { background: color-mix(in srgb, var(--skin) 10%, transparent); border-radius: 12px; padding: 10px; min-height: 90px; }
 .kcol.flagged { outline: 2px solid var(--accent); }
 .kcol h2 { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.07em;
   color: var(--text-secondary); margin: 2px 4px 10px; display: flex; justify-content: space-between; }
 .kcard { background: var(--surface); border: 1px solid var(--border); border-radius: 9px;
   padding: 10px 12px; margin-bottom: 8px; cursor: pointer; text-align: left; width: 100%;
   font: inherit; color: inherit; display: block; }
-.kcard:hover { border-color: var(--accent); }
+.kcard:hover { border-color: var(--accent-fill); }
 .kcard .kid { font-size: 0.72rem; color: var(--text-secondary); }
 .kcard .ktitle { font-weight: 650; margin: 2px 0 7px; font-size: 0.92rem; line-height: 1.35; }
 .chips { display: flex; gap: 5px; flex-wrap: wrap; }
 .chip { font-size: 0.7rem; padding: 1px 8px; border-radius: 999px; color: var(--text-secondary);
   border: 1px solid var(--border); }
 .chip.hot { color: var(--accent); border-color: var(--accent); }
-.chip.gate { background: color-mix(in srgb, var(--accent) 16%, transparent); color: var(--accent-strong); border-color: transparent; }
+.chip.gate { background: color-mix(in srgb, var(--magic) 20%, transparent); color: var(--magic-text); border-color: transparent; }
 
 .usgroup { margin-bottom: 24px; }
 .usgroup > h2 { font-size: 1rem; margin: 0 0 10px; }
@@ -276,7 +274,7 @@ BOARD_CSS = """
 .uscard .ustop b { font-size: 0.98rem; }
 .progress { height: 6px; border-radius: 4px; background: color-mix(in srgb, var(--text) 10%, transparent);
   margin: 10px 0 6px; overflow: hidden; }
-.progress i { display: block; height: 100%; background: var(--accent); }
+.progress i { display: block; height: 100%; background: var(--accent-fill); }
 .asa { color: var(--text-secondary); margin: 6px 0; font-size: 0.9rem; }
 .checks { list-style: none; padding: 0; margin: 6px 0 10px; font-size: 0.87rem; }
 .doc { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px 22px; }
