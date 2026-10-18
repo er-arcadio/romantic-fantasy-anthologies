@@ -11,13 +11,13 @@ Hard constraints. Unlike the style guide, these are not preferences; violating o
 
 This overrides every other instruction in the repo, including style guides, agents, era outlines, and author briefs.
 
-- **Every character in sexual or romantic content must be unambiguously adult**: adult in stated age, behaviour, mind, and development, and visibly so on the page.
-- **Stated age governs, not apparent age.** Ages are written in plain stated years. A character may appear in sexual or romantic content **only if her or his stated age is 18 or older**. A character who looks 18 but is stated as 2 is a child in the text, and is never part of such content.
-- **Rapidly maturing characters** (elves and others on the aging chart, `story-bible/ages-and-lifespans.md`) never take part in romantic or sexual content before stated age 18, and their youth is never eroticized, including through descriptions of an adult-looking body.
+- **Every character in sexual or romantic content must be an adult**: adult in behaviour, mind, and development, and visibly so on the page.
+- **Apparent age governs stated as some creatures mature quickly similar to some animals.** Ages are not often mentioned but the word “maturity” is used to represent an adult body, mind, and development. A character may appear in sexual or romantic content only if they are or older than this maturity.
+- **Rapidly maturing characters** (elves and others on the aging chart, `story-bible/ages-and-lifespans.md`) never take part in romantic or sexual content before their respective maturity age, and their youth before that is never eroticized, including through descriptions of an adult-looking body.
 - **Fairies are conjured as adults** and have no age; they are ancient, angelic minds. They are always written as unmistakably adult.
 - **Newborns, offspring, and half-born children are never sexualized.** Reproduction scenes (an elf's birth through sunlight and love, a fairy immersing herself in her element to conjure another) depict only the adult parent. Violence against children is never framed as erotic.
 - **Schools are adult.** Would-be witches are recruited only after they turn 18, so every student is an adult. Any school setting, including a spin-off, follows this.
-- A "chosen" or frozen youthful appearance (a witch's forbidden aging magic, a vampire turned young) must still read as clearly adult.
+- A "chosen" or frozen youthful appearance (a witch's forbidden aging magic, a vampire turned young) must still read as clearly adult. Because these people start human, they will always be 18 human years old before converting to witch or vampire.
 - Any agent that sees a possible violation stops and raises it with the lead. The story-bible keeper treats it as a BLOCKER.
 
 ## 2. Women lead, men support
