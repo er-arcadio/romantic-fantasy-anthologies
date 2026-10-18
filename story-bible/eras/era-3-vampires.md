@@ -22,7 +22,7 @@ The death god supports their journeys and leads none of them.
 - The demons unite to make a **demon lord**.
 - Having learned to be slow and infectious, the death god sends the soul of a dead human back as **Dracula**, the first vampire (an echo of the Dracula legend). Vampires are made for **sheer killing**, aimed at witches and elves, though they also kill and recruit humans. They can kill witches, elves, and some demons, but **not a fairy in full form**; only in her magic-less human form.
 - The witches face **prejudice** after the war, partly justified by the evil witch and the demons. Elves and fairies first blame them for the sudden vampires.
-- Pushed by the upheaval, **elves begin reproducing with others**.
+- Pushed by the upheaval, **elves begin reproducing with others**: with demons, not yet with humans (human-fathered elves begin in the epilogue).
 - The fairies hear of humans turning into vampires and suspect the witches aren't behind it. The witches deny it and ally against the demons, the demon lord, and the vampires.
 - **Equilibrium returns, with cross-species romances everywhere.** But witches, vampires, and demons blend in with humans so well that tension builds under the peace.
 

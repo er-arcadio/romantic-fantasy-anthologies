@@ -38,7 +38,7 @@ Men follow the same chart, except maturity takes **36 months** and arrives at ap
 - **Humans** age normally.
 - **Witches** age like humans until they learn the **forbidden magic** that stops aging, then freeze at an apparent **21 to 27**, depending on skill. (The frozen age reflects what men tend to prefer; a commentary hook.)
 - **Hags** never use the forbidden magic, so they keep aging and show it.
-- **Vampires** are turned by another vampire between apparent **18 and 30** and stay at that age forever.
+- **Vampires** start human and, by their own law, turn someone only after maturity (18 human years or older). They look 18 to 30 and stay that age forever.
 - **Fairies** are conjured as adults and **have no age**; each is an ancient mind (ultimately a former angel) in a clearly adult form.
 - **Elves** use the chart in full, including the rapid childhood.
 

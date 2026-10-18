@@ -23,7 +23,7 @@ status: draft
 
 ## Part two: the second generation
 - Hints are not enough. A second group of women angels, inspired by the first, come down as **elves** with integration in mind. They don't hide and they openly help society progress.
-- They help so much that they **advance human technology quickly, further from free will than God wanted**. Elves are never called "angels from heaven," though it is easy to read them that way. They are born of light and raised by the fairies when they arrive.
+- They help so much that they **advance human technology quickly, further from free will than God wanted**. Elves are never called "angels from heaven," though it is easy to read them that way. The founding elves **arrive as adult angels** (decided 2026-10-18). "Born of light" describes their daughters, whom the fairies help raise.
 - **God and most angels** judge this the natural course and let it be. **Four angels** disagree loudly, defy God, and are **cast out** (Era 2).
 - **The elf split, before the angels fall.** The elves realize they are helping too much, in a biased direction. Two views emerge: **light elves** keep pushing progress (light aesthetic); **dark elves** counter by pulling humans toward temptation and vice (darker aesthetic). Neither is right or wrong, and neither is part demon.
 

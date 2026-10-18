@@ -16,7 +16,7 @@ Made by the death god after the evil witch's defeat, as his first slow, infectio
 Can kill witches, elves, and some demons. **Cannot kill a fairy in full form**, only in her magic-less human form.
 
 ## Age
-Turned by another vampire between apparent 18 and 30; stay that age forever.
+**Vampire law: they turn someone only once that person has reached maturity** (decided 2026-10-18). Since vampires start human, that means 18 human years or older. Those turned look 18 to 30 and stay that age forever.
 
 ## Arc across the eras
 Arrive in Era 3; settle among humans in Era 4; Dracula retreats from the first werewolf in Era 5; indifferent to the Civil War in Era 6; run rampant with the werewolves afterward; in Era 7, elves seek them for love affairs and witches hunt them.

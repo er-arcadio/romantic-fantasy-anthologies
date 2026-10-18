@@ -14,3 +14,7 @@ One row per decision. The lead appends here whenever the author approves, reject
 | 2026-10-17 | — | **Magic guidelines imported as guidelines, not rules.** Forms to be filled with reasoning and confirmed. | T-006, T-007. |
 | 2026-10-18 | T-012 | **Reading site and board tab turned on.** Pages source set to GitHub Actions; `BOARD_PASSPHRASE` added as a repository secret. | First deploy succeeded. |
 | 2026-10-18 | — | **Site theme:** light mode only; tan #FFDCB3 backdrop, forest green #4A8F6B, skin-tone brown (adjusted to #8A5A3C), purple #AA87FF accent. | Text uses deeper shades for readability. |
+| 2026-10-18 | T-001 Q1 | **Human-fathered elves, and so male elves, begin only in the epilogue.** Before then elves have children with elves or demons (drow). | Audit C1. |
+| 2026-10-18 | T-001 Q4 | **Vampire law: turn only after maturity** (18 human years or older, since vampires start human). | Audit A3. |
+| 2026-10-18 | T-001 Q5 | **The founding elves arrive as adult angels.** "Born of light" describes their daughters. | Audit A4. |
+| 2026-10-18 | — | **Story Law 1 edited by the author:** maturity governs eligibility rather than stated age. | See story-laws.md. Propagation to other files pending. |
