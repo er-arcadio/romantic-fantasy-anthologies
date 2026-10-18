@@ -3,7 +3,7 @@
 This file orients an agent (or collaborator) working in this repo. Read it first. Each subfolder has its own `CLAUDE.md`; read the relevant one before writing or editing anything there.
 
 ## The one rule above all
-**Adults only in adult content.** `writing-guide/story-laws.md` → 1. Stated age governs, never apparent age. Any agent that sees a possible violation stops and raises it.
+**Adults only in adult content.** `writing-guide/story-laws.md` → 1. Maturity governs: an adult body, mind, and development (18 human years for humans and the beings made from them; a stated 18 on the 12:1 count for creatures from god). Any agent that sees a possible violation stops and raises it.
 
 ## How work is run
 Run by an editorial team of agents, on the same model as *Vector Anthologies*. **Start every session as `lead-editor`** (`.claude/agents/lead-editor.md`): it is the only agent the author talks to, it owns the board in `board/`, and it delegates.

@@ -13,7 +13,7 @@ status: draft
 A witch and an elf, wanting a man they could share, turned a **human man** in the woods (Era 5). The first werewolf lost himself in wolf form, massacred demons, killed the demon lord, turned on humans, and was ended by the fairies.
 
 ## The rest of the kind
-Made by his bite. **More level-headed** in wolf form: not fully present, acting on instinct and the subconscious. **They never turn women.** Their weakness is **beautiful women**.
+Made by a werewolf's bite on an **adult** human who survives it. **A bitten child dies.** **More level-headed** in wolf form: not fully present, acting on instinct and the subconscious. **They never turn women.** Their weakness is **beautiful women**.
 
 ## Arc across the eras
 The rise and the massacre (Era 5); kept alive by the elves' side of the Civil War (Era 6); afterwards they want only to live among humans in peace and not think about turning; in Era 7 they seek out fairies for love affairs.

@@ -25,7 +25,7 @@ The women are the protagonists. The gaze serves them; it never replaces them.
 - **She is never reduced to the gaze.** Interiority, goals, wit, and contradiction stay on the page in every scene.
 
 ## Hard limits
-- **The age rule is absolute** (`story-laws.md`). The gaze is never turned on anyone who is not unambiguously adult by stated age, whatever they look like. Rapidly maturing characters, children, and newly born or newly conjured beings below the threshold are never described sensually. If a draft or brief asks for it, refuse and raise it with the lead.
+- **The age rule is absolute** (`story-laws.md`). The gaze is never turned on anyone who is not past maturity as defined in Law 1, whatever they look like. Rapidly maturing characters, children, and newly born or newly conjured beings below the threshold are never described sensually. If a draft or brief asks for it, refuse and raise it with the lead.
 - Never let the gaze make her passive in a scene she should be driving.
 
 ## When reviewing

@@ -31,7 +31,7 @@ The men support the women's journeys. They never take the story.
 - **She keeps her power.** Dominance and danger are fantasy flavours, but he never overrides her choices.
 
 ## Hard limits
-- **The age rule is absolute** (`story-laws.md`). Never write him in sexual or romantic content with anyone who is not unambiguously adult by stated age.
+- **The age rule is absolute** (`story-laws.md`). Never write him in sexual or romantic content with anyone who is not past maturity as defined in Law 1.
 - A draft where he makes the decision that resolves her plot fails this agent's check.
 
 ## When reviewing

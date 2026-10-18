@@ -17,4 +17,6 @@ One row per decision. The lead appends here whenever the author approves, reject
 | 2026-10-18 | T-001 Q1 | **Human-fathered elves, and so male elves, begin only in the epilogue.** Before then elves have children with elves or demons (drow). | Audit C1. |
 | 2026-10-18 | T-001 Q4 | **Vampire law: turn only after maturity** (18 human years or older, since vampires start human). | Audit A3. |
 | 2026-10-18 | T-001 Q5 | **The founding elves arrive as adult angels.** "Born of light" describes their daughters. | Audit A4. |
-| 2026-10-18 | — | **Story Law 1 edited by the author:** maturity governs eligibility rather than stated age. | See story-laws.md. Propagation to other files pending. |
+| 2026-10-18 | — | **Story Law 1 edited by the author:** maturity governs eligibility rather than stated age. | Propagated to CLAUDE.md, eval checklist, agents, ages file. |
+| 2026-10-18 | — | **Creatures from god count age 12:1** (each human month a year) until 100, then "centennial". Fairies, elves, fallen angels, the death god, drow. Maturity at a stated 18; ages never given in human years. | Beings arriving or conjured as adults begin at 18 (lead's default, to confirm). |
+| 2026-10-18 | — | **Witches and vampires are made only from humans 18 or older. Werewolves turn only adults; a bitten child dies.** | |

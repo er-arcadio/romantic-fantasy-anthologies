@@ -104,8 +104,9 @@ checks below apply (`style-guide.md` → Length).
 ## 2. Story Laws Compliance (`story-laws.md`) — hard constraints
 
 - [ ] **Age rule.** Every character in sexual or romantic content is
-  unambiguously adult by stated age and on the page. No exceptions,
-  whatever a character looks like. A violation here is a stop, not a flag.
+  past maturity (Law 1: 18 human years, or a stated 18 on the 12:1
+  count for creatures from god) and adult on the page. No ages given in
+  human years for creatures from god. No exceptions. A violation here is a stop, not a flag.
 - [ ] **Women lead, men support.** The protagonist is a woman and her
   choices drive the climax. No man rescues her from her own story.
 - [ ] **The two gazes.** Women are written through the male gaze without

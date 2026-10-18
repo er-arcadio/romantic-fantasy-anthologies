@@ -14,7 +14,7 @@ Every scene of birth or conjuring depicts only the **adult** parent. Offspring a
 - **Demons** carry a curse: a demon's child with a **mortal** is always **male**, so the seduction spreads.
 - **Drow** are born of demons and elves. They can be **male or female**: women lean elf with slight demon traits, men lean demon with slight elf traits.
 - **Vampires** are made, not born: a vampire turns a human.
-- **Werewolves** are made by a bite. **They never turn women.**
+- **Werewolves** are made by a bite on an adult man who survives it; a bitten child dies. **They never turn women.**
 - **Witches** are made, first by the leader and then through the avenue the second angel woman opened.
 
 ## Why elves began reproducing with others
